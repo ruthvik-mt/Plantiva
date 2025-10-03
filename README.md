@@ -12,7 +12,7 @@ An AI-powered Progressive Web App (PWA) for plant disease detection and health a
 
 ## Introduction
 
-Plantiva is a full-stack web application designed to help farmers, gardeners, and plant enthusiasts identify plant diseases by analyzing images. It uses a custom Convolutional Neural Network (CNN) model trained on plant disease datasets, and also integrates the Plant.id API to provide health assessments, confidence levels, and treatment suggestions.This combined approach delivers accurate and informative results, helping users take better care of their plants.
+Plantiva is a full-stack web application designed to help farmers, gardeners, and plant enthusiasts identify plant diseases by analyzing images. It uses a custom Convolutional Neural Network (CNN) model trained on plant disease datasets and also integrates the Plant.id API to provide health assessments, confidence levels and treatment suggestions.This combined approach delivers accurate and informative results, helping users take better care of their plants.
 
 ## Live Demo
 
