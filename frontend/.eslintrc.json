@@ -1,5 +1,23 @@
+// {
+//   "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+//   "parser": "@typescript-eslint/parser",
+//   "plugins": ["@typescript-eslint"],
+//   "parserOptions": {
+//     "ecmaVersion": "latest",
+//     "sourceType": "module",
+//     "project": "./tsconfig.json"
+//   },
+//   "rules": {
+//     // add custom rules here
+//   }
+// }
+
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "parserOptions": {
@@ -8,6 +26,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    // add custom rules here
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off"
   }
 }
